@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif ;
+    src: url('https://fonts.googleapis.com/css2? family= Montserrat:wght@500 & display=swap');
+}
+
+body{
+    background-color: black;
+}
+/* barra navegacio ------------------------*/
+nav ul li {
+    display: inline;
+    margin: 75px;
+    font-family: 'Montserrat', sans-serif ;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 25px;
+    line-height: 100px;
+
+}
+/* --------------------------------------------- */
+
+.linea {
+    display: inline;
+}
+.texto_welcome {
+    display: inline-block;
+}
+.color{
+    color: white;
+    font-family: 'Montserrat', sans-serif ;
+    
+}
+
+.img_index  div img{
+    position: relative;
+    left: 50px;
+}
+
+.titulo_index  div h1{
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 50px;
+}
+
+.parrafo_index  div p{
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+
+    position: relative;
+    bottom: 130px;
+    left: 100px;
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+}
+
+/*Footer*/
+
+footer ul li{
+    display: inline;
+    margin: 50px;
+
+    position: relative;
+    top: 60px;
+}
+
+
+footer{
+    height: 120px;
+    background-image: url('https://img1.wallspic.com/previews/8/2/9/6/4/146928/146928-textil_de_rayas_rosa_y_negro-x750.jpg');
+
+    
+}
+
+.imgT{
+    color: white;
+    size: 40px;
+    font-size: 50px ;
+    position: relative;
+    bottom: 25px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+
+/*Portfolio*/
+
+.trabajos h2{
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 30px;
+}
+
+.trabajos p{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 10px;
+
+}
+
+.img_portfolio img{
+    height: 450px;
+    width: 750px;
+}
+
+.ajuste_img img {
+   margin: 50px ;
+   position: relative;
+   left: 100px;
+         
+}
+.img_center{
+    position: relative;
+    bottom: 40px; 
+}
+/* ---------------------------------------------- */
+
+/* Perfil */
+
+.titulo_perfil  div h2{
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 50px;
+}
+
+/* ------------------------------------------ */
+
+/* Contacto */
+
+.Bordes_text h4{
+    border: purple;
+    border-width: 4px;
+    border-style: groove;
+    width: 900px;
+    margin: 10px;
+    position: relative;
+    left: 150px;
+}
+
+.Centrar_form h2{
+    text-align: center;
+}
