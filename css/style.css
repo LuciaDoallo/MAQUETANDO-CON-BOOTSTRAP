@@ -13,8 +13,14 @@ a{
 
 body{
     background-color: black;
-}
+} 
 /* barra navegacio ------------------------*/
+nav{
+    display: flexbox;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
 nav ul li {
     display: inline;
     margin: 75px;
@@ -48,7 +54,8 @@ nav ul li a{
 
 .titulo_index  div h1{
     position: relative;
-    bottom: 150px;
+    /* bottom: 150px; */
+    top: 40px;
     left: 200px;
     font-family: 'Montserrat', sans-serif ;
     font-size: 50px;
@@ -60,7 +67,8 @@ nav ul li a{
     font-size: 20px;
 
     position: relative;
-    bottom: 130px;
+     /* bottom: 130px; */
+     top: 60px;
     left: 100px;
     font-family: 'Montserrat', sans-serif ;
     text-align: center;
@@ -109,7 +117,7 @@ footer{
 
 .trabajos p{
     text-align: center;
-    line-height: 50px;
+    line-height: 50px; 
     color: white;
     font-family: 'Montserrat', sans-serif ;
     font-size: 10px;
@@ -159,4 +167,25 @@ footer{
 
 .Centrar_form h2{
     text-align: center;
+}
+.dis{
+    display: inline;
+}
+#div0{
+    background-color: red;
+}
+#div1{
+    background-color: blue;
+}
+#div2{
+    background-color: green;
+}
+#div3{
+    background-color: yellow;
+}
+#div4{
+    background-color: brown;
+}
+#div5{
+    background-color: pink;
 }
